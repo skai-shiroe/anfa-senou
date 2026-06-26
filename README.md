@@ -140,3 +140,10 @@ Tout est open source et déployable localement, sans compte cloud payant.
 ## Contact
 
 Pour toute question : Laisser un commentaire sur **Google Classroom** ou envoyer un email à **Denis AKPAGNONITE**
+
+
+
+## SEANCE 
+
+IMAGE             ID             DISK USAGE   CONTENT SIZE   EXTRA
+anfa-analyse:v1   f0945edbf263       1.17GB          445MB        
