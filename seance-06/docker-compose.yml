@@ -24,7 +24,7 @@ x-airflow-common: &airflow-common
 services:
 
   postgres:
-    image: postgres:18-alpine
+    image: postgres:17-alpine
     container_name: anfa-postgres
     restart: unless-stopped
     environment:
@@ -98,6 +98,7 @@ services:
     volumes:
       - ./scripts:/opt/scripts
       - ../data/referentiel:/opt/data/referentiel:ro
+      - ./jars:/opt/spark/jars/ext
     command: >
       /opt/spark/sbin/start-master.sh
 
@@ -116,6 +117,7 @@ services:
     volumes:
       - ./scripts:/opt/scripts
       - ../data/referentiel:/opt/data/referentiel:ro
+      - ./jars:/opt/spark/jars/ext
     command: >
       /opt/spark/sbin/start-worker.sh spark://spark-master:7077
 

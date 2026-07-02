@@ -37,9 +37,8 @@ def analyser_heures_pointe():
     cmd = (
         "/opt/spark/bin/spark-submit "
         "--master spark://spark-master:7077 "
-        "--conf spark.jars.ivy=/tmp/.ivy2 "          # HOME=/nonexistent dans l'image Spark
-        "--packages org.apache.hadoop:hadoop-aws:3.3.4,"
-        "com.amazonaws:aws-java-sdk-bundle:1.12.262 "
+        "--jars /opt/spark/jars/ext/hadoop-aws-3.3.4.jar,"
+        "/opt/spark/jars/ext/aws-java-sdk-bundle-1.12.262.jar "
         "/opt/scripts/heures_de_pointe.py"
     )
     code, output = master.exec_run(cmd, stream=False, demux=False)
