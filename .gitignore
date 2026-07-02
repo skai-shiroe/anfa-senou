@@ -95,3 +95,6 @@ $RECYCLE.BIN/
 *.temp
 *.orig
 *.rej
+# dependencies
+*.jar
+seance-06/jars/
