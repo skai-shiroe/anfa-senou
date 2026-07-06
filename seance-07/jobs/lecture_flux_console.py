@@ -15,10 +15,6 @@ def creer_spark_session() -> SparkSession:
         SparkSession.builder
         .appName("Anfa - Lecture flux Kafka (console)")
         .master("spark://spark-master:7077")
-        .config(
-            "spark.jars.packages",
-            "org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.8"
-        )
         .getOrCreate()
     )
 

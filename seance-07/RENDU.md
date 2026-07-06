@@ -1,8 +1,8 @@
 # Rendu — Séance 7
 
-**Nom et prénom :** <Votre nom complet>
-**Identifiant GitHub :** <votre-username>
-**Date de soumission :** <JJ/MM/AAAA>
+**Nom et prénom :** SENOU KOKOU AUDREY
+**Identifiant GitHub :** skai-shiroe
+**Date de soumission :** 06/07/2026
 
 ## Résumé de la séance
 

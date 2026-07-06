@@ -136,6 +136,7 @@ services:
       - "8091:8080"      # UI Spark sur localhost:8091
     volumes:
       - ./jobs:/opt/jobs
+      - ./jars:/opt/jars
     command: >
       /opt/spark/sbin/start-master.sh
 
@@ -154,6 +155,7 @@ services:
       - SPARK_WORKER_CORES=1
     volumes:
       - ./jobs:/opt/jobs
+      - ./jars:/opt/jars
     command: >
       /opt/spark/sbin/start-worker.sh spark://spark-master:7077
 
