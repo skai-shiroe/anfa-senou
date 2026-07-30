@@ -1,6 +1,6 @@
 # Rendu — Séance 10
 
-**Nom et prénom :** <Votre nom>
+**Nom et prénom :** SENOU KOKOU AUDREY
 **Identifiant GitHub :** skai-shiroe
 **Date de soumission :** 29/07/2026
 
